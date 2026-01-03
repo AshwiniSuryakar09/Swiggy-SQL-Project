@@ -1,9 +1,10 @@
 # 🍔 Swiggy Data Analysis using SQL Server
 
-📌 Project Overview
+ > ## 📌 Project Overview
 
-This project focuses on cleaning, validating, modeling, and analyzing Swiggy food order data using Microsoft SQL Server.
-The raw dataset is transformed into a Star Schema (Fact & Dimension tables) and used to generate business-ready insights such as revenue, average pricing, and order trends.
+  This project focuses on cleaning, validating, modeling, and analyzing Swiggy food order data using Microsoft SQL Server.
+  
+  The raw dataset is transformed into a Star Schema (Fact & Dimension tables) and used to generate business-ready insights such as revenue, average pricing, and order trends.
 
 > ## 🎯 Objectives
 
@@ -83,7 +84,7 @@ Concepts Used :
 
   Duplicates were identified using:
 
-  GROUP BY + HAVING COUNT(*) > 1
+     GROUP BY + HAVING COUNT(*) > 1
 
   Removed safely using ROW_NUMBER() with CTE.
 
